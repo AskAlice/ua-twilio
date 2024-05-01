@@ -1,0 +1,8 @@
+calls/*
+.env
+token.json
+credentials.json
+venv/*
+venv
+__pycache__/*
+__pycache__
