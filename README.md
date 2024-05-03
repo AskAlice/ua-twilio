@@ -39,7 +39,7 @@ The transcriptions get transcoded into the mp3 files with ffmpeg, your calls are
     crontab -e
     ```
     ```
-    12 2-11 * * 1-5 /usr/bin/bash -c "cd /home/alice/code/ua-twilio/ && ./ua check"
+    12 2-11 * * 1-5 /usr/bin/bash -c "cd /home/alice/code/ua-twilio/ && source ./ua check"
     ```
     this runs the script every hour from 2am to 11am on weekdays
 ## Usage
